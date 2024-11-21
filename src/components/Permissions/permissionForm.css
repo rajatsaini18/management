@@ -1,0 +1,89 @@
+/* Center the form on the screen */
+.permission-form {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .permission-form h2 {
+    text-align: center;
+    color: #4a4a4a;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .permission-form .form-group {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .permission-form .form-group label {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    display: block;
+    font-weight: 600;
+  }
+  
+  .permission-form .input-field {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  .permission-form .input-field:focus {
+    border-color: #007bff;
+  }
+  
+  .submit-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .submit-btn .FaPlusCircle {
+    font-size: 1.3rem;
+  }
+  
+  @media (max-width: 768px) {
+    .permission-form {
+      padding: 20px;
+    }
+  
+    .permission-form h2 {
+      font-size: 1.6rem;
+    }
+  
+    .permission-form .input-field {
+      font-size: 1rem;
+    }
+  
+    .submit-btn {
+      font-size: 1rem;
+    }
+  }
+  

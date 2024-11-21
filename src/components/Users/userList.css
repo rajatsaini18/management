@@ -1,0 +1,75 @@
+/* Container */
+.user-list-container {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Title */
+.user-list-title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Table Wrapper */
+.table-wrapper {
+  overflow-x: auto;
+}
+
+/* Table */
+.user-list-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.user-list-table th, .user-list-table td {
+  padding: 12px;
+  text-align: left;
+}
+
+.user-list-table th {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.user-list-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.user-list-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.table-row {
+  transition: background-color 0.3s;
+}
+
+/* No data message */
+.no-data-message {
+  text-align: center;
+  font-size: 18px;
+  color: #999;
+}
+
+/* Status badge */
+.status-badge {
+  
+  padding: 5px 10px;
+  border-radius: 1px;
+  width: 80px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.active {
+  background-color: #4caf50; /* Green */
+  color: white;
+}
+
+.inactive {
+  background-color: #f44336; /* Red */
+  color: white;
+}

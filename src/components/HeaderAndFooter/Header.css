@@ -1,0 +1,78 @@
+/* Basic styling for the header */
+.app-header {
+  background-color: #8b8f8f;
+  color: white;
+  padding: 20px 10px;
+  font-family: 'Arial', sans-serif;
+
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin: 0;
+  columns: white;
+}
+
+.header-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.header-nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  padding: 5px 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.header-nav a:hover {
+  background-color: #0056b3;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .header-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .header-nav ul {
+    display: block;
+    margin-top: 10px;
+  }
+
+  .header-nav li {
+    margin: 10px 0;
+  }
+
+  .header-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+}
+
+/* Extra small screens */
+@media (max-width: 480px) {
+  .header-title {
+    font-size: 1.2rem;
+  }
+
+  .header-nav a {
+    font-size: 1rem;
+    padding: 8px;
+  }
+}
